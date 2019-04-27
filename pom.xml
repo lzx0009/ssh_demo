@@ -96,11 +96,11 @@
             <version>5.1.18</version>
             <scope>runtime</scope>
         </dependency>
-        <!-- c3p0  -->
+        <!-- c3p0切换阿里  -->
         <dependency>
-            <groupId>c3p0</groupId>
-            <artifactId>c3p0</artifactId>
-            <version>0.9.1.2</version>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.10</version>
         </dependency>
         <dependency>
             <groupId>com.mchange</groupId>
@@ -116,6 +116,13 @@
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-spring-plugin</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-json-plugin -->
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-json-plugin</artifactId>
+            <version>2.3.32</version>
+        </dependency>
+
         <!-- servlet jsp -->
         <dependency>
             <groupId>javax.servlet</groupId>
